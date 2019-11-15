@@ -82,9 +82,43 @@
         {
             .section4
             {
-                .bubleConv
+                div
                 {
-                    width: 70%;
+                    .bubleConv
+                    {
+                        width: 70%;
+                        margin-left: 70px;
+                    }
+                }
+            }
+        }
+        .part5
+        {
+            .container
+            {
+                .section5
+                {
+                    div
+                    {
+                        h2
+                        {
+                            font-size: $subMob;
+                        }
+                        p
+                        {
+                            font-size: $paraMob;
+                        }
+                    }
+                }
+            }
+        }
+        .part6
+        {
+            .container
+            {
+                .input
+                {
+                    width: 80%;
                 }
             }
         }
@@ -93,10 +127,114 @@
 
 @media (min-width: 900px)
 {
+    body
+    {
+        h1
+        {
+            font-size: $headMob;
+        }
+        h2
+        {
+            font-size: $subMob;
+        }
+        p
+        {
+            font-size: $paraMob;
+        }
+        .header
+        {
+            .container
+            {
+                .section1
+                {
+                    div:nth-child(1)
+                    {
+                        h2
+                        {
+                            font-size: $para;
+                            margin-bottom: 35px;
+                        }
+                        a
+                        {
+                            position: absolute;
+                            font-size: $para;
+                            bottom: 40%;
+                            left: 0;
+                            padding: 10px 35px;
+                        }
+                    }
+                    div:nth-child(2)
+                    {
+                        margin-top: 50px;
+                        img
+                        {
+                            width: 100%;
+                        }
+                    }
+                }
+            }
+        }
+        .part2
+        {
+            .section2
+            {
+                div:nth-child(1)
+                {
+                    img
+                    {
+                        width: 100%;
+                    }
+                }
+                div:nth-child(2)
+                {
+                    margin-top: 12%;
+                    text-align: start;
+                }
+            }
+        }
+        .part3
+        {
+            .section3
+            {
+                div:nth-child(1)
+                {
+                    margin-top: 12%;
+                    text-align: start;
+                }
+                div:nth-child(2)
+                {
+                    img
+                    {
+                        width: 100%;
+                    }
+                }
+            }
+        }
+        .part4
+        {
+            .container
+            {
+                .section4
+                {
+                    div
+                    {
+                        display: flex;
+                        .bubleConv
+                        {
+                            display: flex;
+                            flex-direction: column;
+                            width: 100%;
+                            .site
+                            {
+                                position: absolute;
+                                z-index: 345;
+                                bottom: 0;
+                            }
 
-}
-
-@media (min-width: 1200px)
-{
-
+                        }
+                    }
+                }
+            }
+        }
+    }
 }
