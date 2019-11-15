@@ -1,0 +1,102 @@
+@import 'var.scss';
+
+
+@media (min-width: 600px)
+{
+    body
+    {
+        h1
+        {
+            font-size: $head;
+        }
+        h2
+        {
+            font-size: $sub;
+        }
+        p
+        {
+            font-size: $para;
+        }
+        .header
+        {
+            .container
+            {
+                .section1
+                {
+                    div:nth-child(1)
+                    {
+                        h2
+                        {
+                            margin-bottom: 35px;
+                        }
+                        a
+                        {
+                            padding: 25px 35px;
+                        }
+                    }
+                    div:nth-child(2)
+                    {
+                        img
+                        {
+                            width: 80%;
+                        }
+                    }
+                }
+            }
+        }
+        .part2
+        {
+            .section2
+            {
+                div:nth-child(1)
+                {
+                    margin-left: 0;
+                }
+                div:nth-child(2)
+                {
+                    img
+                    {
+                        width: 55%;
+                    }
+                }
+            }
+        }
+        .part3
+        {
+            .section3
+            {
+                div:nth-child(1)
+                {
+                    margin-left: 0;
+                }
+                div:nth-child(2)
+                {
+                    img
+                    {
+                        width: 55%;
+                    }
+                }
+            }
+        }
+        .part4
+        {
+            .section4
+            {
+                .bubleConv
+                {
+                    width: 70%;
+                }
+            }
+        }
+    }
+}
+
+@media (min-width: 900px)
+{
+
+}
+
+@media (min-width: 1200px)
+{
+
+}
