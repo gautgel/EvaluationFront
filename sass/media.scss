@@ -5,18 +5,6 @@
 {
     body
     {
-        h1
-        {
-            font-size: $head;
-        }
-        h2
-        {
-            font-size: $sub;
-        }
-        p
-        {
-            font-size: $para;
-        }
         .header
         {
             .container
@@ -50,14 +38,15 @@
             {
                 div:nth-child(1)
                 {
-                    margin-left: 0;
-                }
-                div:nth-child(2)
-                {
+                    margin-bottom: 200px;
                     img
                     {
                         width: 55%;
                     }
+                }
+                div:nth-child(2)
+                {
+                    margin-left: 0;
                 }
             }
         }
@@ -125,30 +114,32 @@
     }
 }
 
-@media (min-width: 900px)
+@media (min-width: 1200px)
 {
     body
     {
         h1
         {
-            font-size: $headMob;
+            font-size: $head;
         }
         h2
         {
-            font-size: $subMob;
+            font-size: $sub;
         }
         p
         {
-            font-size: $paraMob;
+            font-size: $para;
         }
         .header
         {
+            margin-bottom: 100px;
             .container
             {
                 .section1
                 {
                     div:nth-child(1)
                     {
+                        margin-top: 8%;
                         h2
                         {
                             font-size: $para;
@@ -158,17 +149,17 @@
                         {
                             position: absolute;
                             font-size: $para;
-                            bottom: 40%;
+                            bottom: 35%;
                             left: 0;
-                            padding: 10px 35px;
+                            padding: 12px 60px;
                         }
                     }
                     div:nth-child(2)
                     {
-                        margin-top: 50px;
+                        margin-top: 5%;
                         img
                         {
-                            width: 100%;
+                            width: 120%;
                         }
                     }
                 }
@@ -182,53 +173,87 @@
                 {
                     img
                     {
-                        width: 100%;
+                        width: 700px;
+                    }
+                    .img1
+                    {
+                        left: 0%;
+                    }
+                    .img2
+                    {
+                        top: 15%;
+                        right: -15%;
                     }
                 }
                 div:nth-child(2)
                 {
                     margin-top: 12%;
-                    text-align: start;
+                    margin-left: 15%;
+                    h2
+                    {
+                        text-align: start;
+                    }
                 }
             }
         }
         .part3
         {
+            margin-bottom: 300px;
             .section3
             {
+                margin-top: 0;
                 div:nth-child(1)
                 {
                     margin-top: 12%;
-                    text-align: start;
+                    h2
+                    {
+                        text-align: start;
+                    }
                 }
                 div:nth-child(2)
                 {
                     img
                     {
-                        width: 100%;
+                        width: 110%;
+                    } 
+                    .img1
+                    {
+                        right: 0%;
+                    }
+                    .img2
+                    {
+                        top: 15%;
+                        left: -15%;
                     }
                 }
             }
         }
         .part4
         {
+            margin-top: 150px;
+            margin-bottom: 250px;
             .container
             {
                 .section4
                 {
                     div
                     {
+                        margin-top: 50px;
                         display: flex;
                         .bubleConv
                         {
                             display: flex;
                             flex-direction: column;
-                            width: 100%;
+                            p
+                            {
+
+                                font-size: 14px;
+                            }
                             .site
                             {
                                 position: absolute;
                                 z-index: 345;
-                                bottom: 0;
+                                bottom: 10%;
                             }
 
                         }
@@ -236,5 +261,183 @@
                 }
             }
         }
+        .part5
+        {
+            margin-bottom: 200px;
+            overflow-x: visible;
+            .container
+            {
+                .section5
+                {
+                    height: 500px;
+                    width: 100%;
+                    display: flex;
+                    align-items: center;
+                    .part_L
+                    {
+                        div
+                        {
+                            width: 100%;
+                            height: 100%;
+                        }
+                        h2
+                        {
+                            width: 100%;
+                            flex-direction: row;
+                            justify-content: flex-end;
+                            font-size: $para;
+                            img
+                            {
+                                position: absolute;
+                                right: -30%;
+                            }
+                        }
+                        p
+                        {
+                            font-size: $paraMob;
+                            text-align: right;
+                        }
+                    }
+                    .part_M
+                    {
+                        position: relative;
+                        height: 500px;
+                        display: flex;
+                        justify-content: center;
+                        img
+                        {
+                            display: block;
+                            position: absolute;
+                            z-index: 23;
+                            top: -16%;
+                            width: 410px;
+                        }
+                        .black_screen
+                        {
+                            display: block;
+                        }
+                    }
+                    .part_R
+                    {
+                        div
+                        {
+                            width: 100%;
+                            height: 100%;
+                        }
+                        h2
+                        {
+                            font-size: $para;
+                            width: 100%;
+                            flex-direction: row;img
+                            {
+                                position: absolute;
+                                left: -30%;
+                            }
+                        }
+                        p
+                        {
+                            text-align: left;
+                            font-size: $paraMob;
+                        }
+                    }
+                }
+            }
+        }
+        .part6
+        {
+            margin-bottom: 200px;
+            .container
+            {
+                .sub
+                {
+                    div
+                    {
+                        p
+                        {
+                            text-align: center;
+                        }
+                    }
+                }
+                .input
+                {
+                    margin-top: 60px;
+                    form
+                    {
+                        display: flex;
+                        justify-content: center;
+                        input
+                        {
+                            margin-right: 100px;
+                            width: 40%;
+                            padding-left: 30px;
+                        }
+                        .button
+                        {
+                            width: 20%;
+                            right: 25%;
+                        }
+                    }
+                }
+            }
+        }
+        .part7
+        {
+            margin-top: 100px;
+            margin-bottom: 100px;
+            .container
+            {
+                div
+                {
+                    div
+                    {
+                        .h
+                        {
+                            margin-bottom: 50px;
+                        }
+                        img
+                        {
+                            margin-top: 50px;
+                            width: 15%;
+                        }
+                    }
+                }
+            }
+        }
+        footer
+        {
+            flex-direction: row;
+            margin-bottom: 10px;
+            margin-top: 10px;
+            .nav_f
+            {
+                display: flex;
+                align-items: center;
+                height: 8vh;
+                margin-left: 30px;
+                ul
+                {
+                    flex-direction: row;
+                    li
+                    {
+                        a
+                        {
+                            font-size: $paraMob;
+                        }
+                    }
+                }
+            }
+            select
+            {
+                width: 180px;
+                height: 35px;
+                margin-right: 100px;
+                padding: 0px 30px 0px 30px;
+            }
+        }
     }
+}
+
+@media (min-width: 1500px)
+{
+    
 }
