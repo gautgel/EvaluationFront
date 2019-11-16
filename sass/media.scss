@@ -2,6 +2,7 @@
 
 
 @media (min-width: 600px)
+
 {
     body
     {
@@ -118,18 +119,6 @@
 {
     body
     {
-        h1
-        {
-            font-size: $head;
-        }
-        h2
-        {
-            font-size: $sub;
-        }
-        p
-        {
-            font-size: $para;
-        }
         .header
         {
             margin-bottom: 100px;
@@ -173,7 +162,7 @@
                 {
                     img
                     {
-                        width: 700px;
+                        width: 110%;
                     }
                     .img1
                     {
@@ -437,7 +426,21 @@
     }
 }
 
-@media (min-width: 1500px)
+@media (min-width: 1200px)
 {
-    
+    body
+    {
+        h1
+        {
+            font-size: $head;
+        }
+        h2
+        {
+            font-size: $sub;
+        }
+        p
+        {
+            font-size: $para;
+        }
+    }
 }

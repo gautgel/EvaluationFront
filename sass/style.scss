@@ -16,10 +16,11 @@ body
     {
         font-size: $subMob;
         text-align: center;
-        font-weight: bold;
+        font-weight: lighter;
         span
         {
             color: $red;
+            font-weight: bold;
         }
     }
     p
@@ -97,6 +98,7 @@ body
                         span
                         {
                             color: white;
+                            font-weight: bold;
                         }
                     }
                     a
@@ -161,6 +163,7 @@ body
             {
                 position: relative;
                 height: 50vh;
+                margin-bottom: 60%;
                 img
                 {
                     max-width: 70%;
