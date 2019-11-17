@@ -1,4 +1,8 @@
 @import 'var.scss';
+html
+{
+    overflow-x: hidden;
+}
 body
 {
     height: 100%;
@@ -16,11 +20,10 @@ body
     {
         font-size: $subMob;
         text-align: center;
-        font-weight: lighter;
+        font-weight: bold;
         span
         {
             color: $red;
-            font-weight: bold;
         }
     }
     p
@@ -95,6 +98,7 @@ body
                     {
                         margin-bottom: 25px;
                         text-align: left;
+                        font-weight: lighter;
                         span
                         {
                             color: white;
